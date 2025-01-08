@@ -4,7 +4,7 @@ import java.util.*;
 public class StrngPrac {
     public static void main(String[] args) {
 
-        //To check String are Anagram or not
+        To check String are Anagram or not
 //        String x = "SILENT He Was At the hall";
 //        String y = "hall he was the LISTEN At";
 //
@@ -28,7 +28,7 @@ public class StrngPrac {
 //            System.out.println("Strings are not anagrams");
 //        }
 
-        //To check if string only contains integers
+        To check if string only contains integers
 //        String x = "423242";
 //        int size = x.length();
 //
@@ -44,7 +44,7 @@ public class StrngPrac {
 //        }
 //        System.out.println("Integer String");
 
-        //To count vowels consonents special charaacters
+        To count vowels consonents special charaacters
 //        String x = "Raavi AbhiRAM's/////";
 //        x=x.toLowerCase();
 //
@@ -74,7 +74,7 @@ public class StrngPrac {
 //        System.out.println(conso);
 //        System.out.println(special);
 
-        //Convert first letter of all words to UpperCase
+        Convert first letter of all words to UpperCase
 //        String x = "thi si a fsa gdhi jgdsjsi fsbufsanfi";
 //
 //        char y[] = x.toCharArray();
@@ -90,7 +90,7 @@ public class StrngPrac {
 //        }
 //        System.out.println(y);
 
-        //Palindrome of a string
+        Palindrome of a string
 //        String x = "abcdedcba";
 //        x=x.replace(" " , "");
 //        x=x.toLowerCase();
@@ -118,8 +118,8 @@ public class StrngPrac {
 //        }
 //        System.out.println("String is palindrome");
 
-        //String is panagram or not
-        //Contains all the letters of the alphabets
+        String is panagram or not
+        Contains all the letters of the alphabets
 //        String x = "THE QUICK BROWN FOX JUMPS OVER A LAZY DOG";
 //        if (isPangram(x)) {
 //            System.out.println("The sentence is a pangram.");
@@ -127,7 +127,7 @@ public class StrngPrac {
 //            System.out.println("The sentence is not a pangram.");
 //        }
 
-        //Adding data into maps HASHMAP
+        Adding data into maps HASHMAP
 //        String x = "ARADHYA";
 //        char y[] = x.toCharArray();
 //        int size = x.length();
@@ -154,7 +154,7 @@ public class StrngPrac {
 //            System.out.println(data.getValue());
 //        }
 
-        //Check if the string has all unique characters
+        Check if the string has all unique characters
 //        String x = "abhiram";
 //        char y[] = x.toCharArray();
 //        int size = x.length();
@@ -182,7 +182,7 @@ public class StrngPrac {
 //        System.out.println("Contains all unique characters");
 
 
-        //Print all Non-Repeated Character in String
+        Print all Non-Repeated Character in String
 //        String x = "abhiram";
 //        char y[] = x.toCharArray();
 //        int size = x.length();
@@ -208,7 +208,7 @@ public class StrngPrac {
 //            System.out.println(data.getKey());
 //        }
 
-        //First non Repeated character in the string
+        First non Repeated character in the string
 //        String x = "abhiram";
 //        char  y[] = x.toCharArray();
 //        int size = x.length();
@@ -236,7 +236,7 @@ public class StrngPrac {
 //            }
 //        }
 
-        //Maximum occuring character in a String
+        Maximum occuring character in a String
 //        String x = "abhiram";
 //        char y[] = x.toCharArray();
 //        int size = x.length();
@@ -267,7 +267,7 @@ public class StrngPrac {
 //        System.out.println(maxkey);
 //        System.out.println(maxval);
 
-        //Print all duplicates in a String
+        Print all duplicates in a String
 //        String x = "SILLYSPIDERS";
 //        char y[] = x.toCharArray();
 //        int size = x.length();
@@ -295,7 +295,7 @@ public class StrngPrac {
 //            }
 //        }
 
-        //Remove duplicate characters from a string
+        Remove duplicate characters from a string
 //        String x = "SILLYSPIDER";
 //        char y[] = x.toCharArray();
 //        int size = x.length();
@@ -322,17 +322,17 @@ public class StrngPrac {
 //        }
 //        System.out.println(res);
 
-        //Remove White Spaces from a String
+        Remove White Spaces from a String
 //        String x = "afhu fffd g    ge g  g  s  dg d  gs   ds g  ds  gs g s   d";
 //        x=x.replaceAll("\\s" , "");
 //        System.out.println(x);
 
-        //count number of the words in a sentence
+        count number of the words in a sentence
 //        String x = "WE ARE PROUD INDIANS";
 //        String y[] = x.split(" ");
 //        System.out.println(y.length);
 
-        //Check if a string is rotational or not
+        Check if a string is rotational or not
 //        String x = "maths";
 //        String y = "thsma";
 //
@@ -345,21 +345,21 @@ public class StrngPrac {
 //            System.out.println("Not rotational String");
 //        }
 
-        //Delete all occurances of a character
-        String x = "SPIDERSLIES";
-        char y[] = x.toCharArray();
-        int size = x.length();
-        char key = 'S';
+        Delete all occurances of a character
+        // String x = "SPIDERSLIES";
+        // char y[] = x.toCharArray();
+        // int size = x.length();
+        // char key = 'S';
 
-        String res = "";
-        int i =0;
-        while(i!=size){
-            if(y[i] !=key){
-                res = res + y[i];
-            }
-            i++;
-        }
-        System.out.println(res);
+        // String res = "";
+        // int i =0;
+        // while(i!=size){
+        //     if(y[i] !=key){
+        //         res = res + y[i];
+        //     }
+        //     i++;
+        // }
+        // System.out.println(res);
 
 
 
